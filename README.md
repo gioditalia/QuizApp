@@ -1,3 +1,7 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-orange)](https://opensource.org/licenses/MIT)
+
+
+
 # Quiz App - Backend
 
 Backend per un'applicazione di quiz in tempo reale multi-giocatore con Socket.IO.
@@ -23,7 +27,7 @@ Backend per un'applicazione di quiz in tempo reale multi-giocatore con Socket.IO
 
 ### 1. Clona il repository
 ```bash
-git clone <repository-url>
+git clone https://github.com/gioditalia/QuizApp.git
 cd QuizApp
 ```
 
