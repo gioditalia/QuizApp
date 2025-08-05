@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",                      // JS target moderno, compatibile con Node 14+
+    "module": "ESNext",                      // Usa moduli ESNext, perfetto per tsx e Node moderno
+    "moduleResolution": "node",              // Risoluzione moduli in stile Node
+    "outDir": "./dist",                      // Cartella di output
+    "rootDir": "./src",                      // Cartella sorgente
+    "strict": true,                         // Abilita controlli di tipo rigorosi
+    "esModuleInterop": true,                 // Import sintassi default-friendly per CommonJS
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,                    // Salta controllo tipi sulle librerie esterne (più veloce)
+    "resolveJsonModule": true,               // Permette import json come modulo
+    "sourceMap": true,                       // Genera source map per debugging
+    "allowSyntheticDefaultImports": true,   // Permette import default anche senza export default
+    "noImplicitAny": true,                   // Evita any impliciti
+    "noUnusedLocals": true,                  // Avverte se variabili non usate
+    "noUnusedParameters": true               // Avverte se parametri funzione non usati
+  },
+  "include": ["./src"],
+  "exclude": ["node_modules", "./dist"]
+}
+
