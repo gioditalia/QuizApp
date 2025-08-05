@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "target": "ES2020",                      // JS target moderno, compatibile con Node 14+
-    "module": "ESNext",                      // Usa moduli ESNext, perfetto per tsx e Node moderno
+    "module": "CommonJS",                    // Usa CommonJS per compatibilità Node.js
     "moduleResolution": "node",              // Risoluzione moduli in stile Node
     "outDir": "./dist",                      // Cartella di output
     "rootDir": "./src",                      // Cartella sorgente
